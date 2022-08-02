@@ -1,0 +1,9 @@
+/* ################################ Footer Styling ##################################### */
+.footer{
+  background-color: #2d3436;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 3rem;
+}

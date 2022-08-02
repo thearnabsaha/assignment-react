@@ -1,0 +1,123 @@
+/* ################################ Shows Styling ##################################### */
+.container_p{
+    margin: 10rem 10rem;
+    display: flex;
+    box-shadow: 0px 0px 20px 0px rgba(170, 170, 170, 0.502);
+}
+.container_p .title_p{
+    font-size: 4rem;
+    font-weight: 400;
+    padding: 3rem;
+}
+.container_p .lan_p{
+    font-size: 2rem;
+    background-color: #764abc;
+    padding: 1rem 3rem 1rem 1rem;
+    text-transform: capitalize;
+    color: #fff;
+    display: inline;
+    margin: 3rem;
+    border-radius: 0px 30px 30px 0px;
+}
+.container_p .desc_p{
+    font-size: 3rem;
+    margin: 3rem;
+    color: #555;
+}
+.container_p .desc_p b{
+    font-size: 2rem;
+    color: #444;
+}
+.container_p .status_p{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #444;
+    margin: 1rem 3rem;
+}
+.container_p .btn_p{
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    background: #764abc;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin:0rem 3rem;
+    margin-bottom: 3rem;
+}
+.btn_p a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.container_p .btn2_p{
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    background: #fff;
+    border: #764abc solid 1px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn2_p a{
+    text-decoration: none;
+    color: #764abc;
+    font-size: 1.5rem;
+}
+.btn_p:hover{
+    background: #513282;
+}
+.btn2_p a:hover{
+    background: #764abc;
+    color: #fff;
+}
+.btn2_p:hover{
+    background: #764abc;
+    color: #fff;
+}
+.container_p img{
+    height: 60rem;
+    padding: 3rem;
+    max-width: 60rem;
+}
+
+/* ###################### Responsiveness Design ######################### */
+
+@media(max-width:1050px){
+    .container_p{
+        flex-direction: column;
+    }
+    .container_p .imgBox{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:670px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:530px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:530px){
+    .container_p img{
+        height: 40rem;
+        padding: 3rem;
+        max-width: 60rem;
+    }
+    .container_p{
+        margin: 5rem 5rem;
+        height: 100vh;
+    }
+}
